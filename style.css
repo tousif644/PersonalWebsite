@@ -19,6 +19,7 @@ h1
 }
 section 
 {
+    margin-top: 5%;
     height: 800px;
     padding-bottom: 10px;
    
@@ -82,7 +83,7 @@ h2
 
 .l-image
 {
-    padding-left: 5%;
+    padding-left: 8%;
 }
 .bio-contact
 {
@@ -91,14 +92,14 @@ h2
 
 .bio 
 {
-    height: 0;
+    height: 100px;
    background-image: url("./Image/footer-bg.png");
    background-repeat: no-repeat;
-   background-size: 3500px;
+   background-size: 100px;
 }
 .bio-contact{
     height: 0;
-    margin-top: -6%;
+    margin-top: -15%;
 }
 
 .bio-contact h2
@@ -106,8 +107,12 @@ h2
     font-size: 50px;
 }
 
+.bio-contact h5
+{
+    color: dimgray;
+}
 .footer{
-    margin-top: 17%;
+    margin-top: 18%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -117,7 +122,7 @@ h2
     width: 30%;
     text-align: center;
     color: white;
-    background-image: linear-gradient(45deg, lightsalmon, tomato);
+    background-image: linear-gradient(45deg, deeppink, red);
     padding: 10px 20px;
     border-radius: 5px;
 
